@@ -1,11 +1,15 @@
 #parallax-image{
   background-image: url('/img/imagen1.jpg');
-  height: 750px;
+  height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+
 }
+
+
 #parallax-image1{
   background-image: url('/img/imagen2.jpg');
   height: 750px;
@@ -26,7 +30,17 @@ p{
 }
 .x{
   font-size: 100px;
+  text-decoration: none;
 
+}
+h2, h3{
+  font-family: 'Permanent Marker', cursive !important;
+  text-decoration-line: underline;
+
+}
+
+.texto-marca{
+  background-color: #eafffd !important;
 }
 
 
@@ -38,6 +52,18 @@ p{
 .nav-link:hover{
   color: white !important;
 }
-button{
-  
+.logogrande{
+  height: 50%;
+  width: 100%;
+}
+
+.container-x{
+  padding-top: 100px;
+}
+
+.frentelocal{
+  height: 350px;
+  margin-bottom: 50px;
+  padding-left: 7px;
+  border-radius: 50px;
 }
