@@ -18,6 +18,43 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.header-video video{
+  min-width: 100%;
+  min-height: 100%;
+}
+.header-video{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+
+ 
+}
+.header-content p{
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.btn{
+  background: #ee97b0;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  
+}
+
+.btn:hover{
+  border: 2px solid #000;
+}
+
+
+
+
 #parallax-image, h1 {
   font-family: 'Permanent Marker', cursive;
   color: white;
@@ -66,4 +103,19 @@ h2, h3{
   margin-bottom: 50px;
   padding-left: 7px;
   border-radius: 50px;
+}
+
+
+
+
+
+
+
+/*mediaquery*/
+
+
+@media(max-width: 960px) {
+  .content{
+    padding: 0 3rem;
+  }
 }
