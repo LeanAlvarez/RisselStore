@@ -63,14 +63,14 @@
 
 
 p{
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 .x{
   font-size: 100px;
   text-decoration: none;
 
 }
-h2, h3{
+h2, h3,h4{
   font-family: 'Permanent Marker', cursive !important;
   text-decoration-line: underline;
 
@@ -111,11 +111,19 @@ h2, h3{
   padding-bottom: 50px;
 }
 
+#footer-secundario{
+  background-color: #8ecaeb;
+}
+
 #footer-principal i{
  color: #000;
 }
 #footer-principal i:hover{
   color: #ee97b0;
+}
+
+.futer{
+  text-decoration: none;
 }
 
 
