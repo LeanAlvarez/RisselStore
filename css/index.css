@@ -40,7 +40,7 @@
 }
 
 .btn{
-  background: #ee97b0;
+  background: #28A745;
   color: #fff;
   font-size: 1.2rem;
   padding: 1rem 2rem;
@@ -119,12 +119,13 @@ h2, h3,h4{
  color: #000;
 }
 #footer-principal i:hover{
-  color: #ee97b0;
+  color: #28A745;
 }
 
 .futer{
   text-decoration: none;
 }
+
 
 
 
