@@ -30,13 +30,13 @@
                   <strong><a class="nav-link" href="#"> <p class="menu"> Home </p></a></strong> 
                 </li>
                 <li class="nav-li">
-                  <strong><a class="nav-link" href="#"><p class=" menu"> Nosotros </p></a></strong> 
+                  <strong><a class="nav-link" href="#locales"><p class=" menu"> Locales </p></a></strong> 
                 </li>
                 <li class="nav-li">
                   <strong><a class="nav-link" href="/verMas.html"><p class="menu"> Productos </p></a></strong> 
                 </li>
                 <li class="nav-li">
-                  <strong><a class="nav-link" href="#"><p class="menu"> Contacto </p></a></strong> 
+                  <strong><a class="nav-link" href="#contacto"><p class="menu"> Contacto </p></a></strong> 
                 </li>
               </ul>
             </div>
@@ -75,7 +75,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid container-card mt-5 mb-5 ml-0 mr-0 ">
+    <div class="container-fluid container-card mt-5 mb-5 ml-0 mr-0 " id="locales">
         <h3 class="text-center mb-5">Nuestros Locales</h3>
       <div class="row justify-content-center">
         <div class="col-md-3 p-0 ">
@@ -121,18 +121,80 @@
       <div class="header-video z-depth-5 d-flex d-md-block">
         <video src="video/video1.mp4" autoplay loop poster="posterimage.jpg"></video>
       </div>
-      <div class="header-content text-center">
+      <div class="header-content text-center container-temporadas">
           <h2 class="pt-5">Diseños por Temporada</h2>
           <p class="pb-0">Nuestros productos Acá</p>
           <div>
           <i class="fa fa-arrow-down fa-2x mb-2" aria-hidden="true"></i>
           </div>
           <a class="btn" href="/verMas.html">Ver Más</a>
+          <p class="text-center mt-5 mb-5">Hacé click en el botón para conocer las novedades de nuestras colecciones.</p>
         </div>
+       
       </section>
-      <div class="container p-0">
-        <p class="text-center mt-5 mb-5">Hacé click en el botón para conocer las novedades de nuestras colecciones.</p>
-      </div>
+        
+       <!--Contacto -->
+       <div class="container-fluid mb-5 mt-5" id="contacto">
+       <div class="container">
+         <div class="formBox">
+           <form>
+               <div class="row">
+                 <div class="col-sm-12">
+                   <h2 class="text-center mb-5">Dejanos un Mensaje</h2>
+                 </div>
+               </div>
+   
+               <div class="row">
+                 <div class="col-sm-6">
+                   <div class="inputBox ">
+                     <div class="inputText">Nombre</div>
+                     <input type="text" name="" class="input">
+                   </div>
+                 </div>
+   
+                 <div class="col-sm-6">
+                   <div class="inputBox">
+                     <div class="inputText">Apellido</div>
+                     <input type="text" name="" class="input">
+                   </div>
+                 </div>
+               </div>
+   
+               <div class="row">
+                 <div class="col-sm-6">
+                   <div class="inputBox">
+                     <div class="inputText">Email</div>
+                     <input type="text" name="" class="input">
+                   </div>
+                 </div>
+   
+                 <div class="col-sm-6">
+                   <div class="inputBox">
+                     <div class="inputText">Teléfono</div>
+                     <input type="text" name="" class="input">
+                   </div>
+                 </div>
+               </div>
+   
+               <div class="row">
+                 <div class="col-sm-12">
+                   <div class="inputBox">
+                     <div class="inputText">Mensaje</div>
+                     <textarea class="input"></textarea>
+                   </div>
+                 </div>
+               </div>
+   
+               <div class="row">
+                 <div class="col-sm-12">
+                   <input type="submit" name="" class="button" value="Enviar">
+                 </div>
+               </div>
+           </form>
+         </div>
+       </div>
+     </div>
+        <!--/Contacto -->
 
          <!--footer -->
           
@@ -171,12 +233,13 @@
 
 
 
-    <!-- custom js -->
-    <script src="js/index.js"></script>
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     <!-- custom js -->
+     <script src="js/index.js"></script>
   </body>
 </html>
