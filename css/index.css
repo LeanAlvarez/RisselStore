@@ -189,6 +189,13 @@ textarea{
   margin: 0px;
 }
 
+/*proximamente*/
+.vh-100{
+  height: 100vh;
+  min-height:100vh;
+}
+/*proximamente*/
+
 
 /*mediaquery*/
 
