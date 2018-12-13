@@ -1,0 +1,164 @@
+<% include partials/head.ejs %>
+
+    <title><%= title %></title>
+  </head>
+  <body>
+    <div id="parallax-image">
+       
+      <!-- navigation -->
+      <% include partials/nav.ejs %>
+
+        <div class="col-md-12 align-self-center container-x">
+          <h2 class="text-center x">x</h2>
+          <h1 class="text-center">RiSSel Clothes</h1>
+        </div>
+
+  </div>
+
+    <div class="container-fluid p-0 texto-marca">
+      <h2 class="text-center pt-5 pb-5"> RiSSel</h2>
+      <div class="container ">
+        <div class="row ">
+          <div class="col-md-6">
+              <h3 class="text-center pb-5">Desde 1999</h3>
+              <p class="text-center pb-4">-</p>
+              <p class="text-center pb-5">Marca nacida hace casi 20 años en la Ciudad de Buenos Aires bajo el nombre de <strong>Summer</strong>, en un principio, fue
+              una marca de zapatillas y a principios de los 2000, pivoteo su modelo de negocio y los productos y cambio su nombre a <strong>RiSSel</strong>, sumando a su stock remeras y jeans.
+            a mediados de 2005 abrio el segundo local en la ciudad de mendoza, y en 2012 la marca se hizo internacional, con la apertura del <strong>RiSSelShop</strong> en Madrid,España.</p>
+          </div>
+          <div class="col-md-6 justify-content-center d-none d-md-block">
+            <img src="/img/frentelocal.jpeg" alt="" class="frentelocal">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="parallax-image1">
+      <div class="row h-100 m-0">
+        <div class="col-md-12 align-self-center">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid container-card mt-5 mb-5 ml-0 mr-0 " id="locales">
+        <h3 class="text-center mb-5">Nuestros Locales</h3>
+      <div class="row justify-content-center">
+        <div class="col-md-3 p-0 d-flex justify-content-center mt-2">
+            <div class="card " style="width: 18rem;">
+                <img class="card-img-top" src="/img/frente1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="text-center">Casa Central</h4>
+                  <p class="text-center">-</p>
+                  <p class="text-center">Av. Gaona 1923, Ciudad de Buenos Aires, Argentina</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 p-0 d-flex justify-content-center mt-2">
+            <div class="card " style="width: 18rem;">
+                <img class="card-img-top" src="img/frente2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="text-center">RiSSelShop</h4>
+                    <p class="text-center">-</p>
+                    <p class="text-center">Av. Gran Via 1352, Madrid, España</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 p-0 d-flex justify-content-center mt-2">
+            <div class="card " style="width: 18rem;">
+                <img class="card-img-top" src="img/frente3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="text-center">Mendoza</h4>
+                    <p class="text-center">-</p>
+                    <p class="text-center">Av. San Martin 960, Mendoza, Argentina</p>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="parallax-video">
+      <div class="row h-100 m-0">
+        <div class="col-md-12 align-self-center">
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="header-video z-depth-5 d-flex d-md-block">
+        <video src="video/video1.mp4" autoplay loop poster="posterimage.jpg"></video>
+      </div>
+      <div class="header-content text-center container-temporadas">
+          <h2 class="pt-5">Diseños por Temporada</h2>
+          <p class="pb-0">Nuestros productos Acá</p>
+          <div>
+          <i class="fa fa-arrow-down fa-2x mb-2" aria-hidden="true"></i>
+          </div>
+          <a class="btn" href="/verMas">Ver Más</a>
+          <p class="text-center mt-5 mb-5">Hacé click en el botón para conocer las novedades de nuestras colecciones.</p>
+        </div>
+       
+      </section>
+        
+       <!--Contacto -->
+       <div class="container-fluid mb-5 mt-5" id="contacto">
+       <div class="container">
+         <div class="formBox">
+           <form>
+               <div class="row">
+                 <div class="col-sm-12">
+                   <h2 class="text-center mb-5">Dejanos un Mensaje</h2>
+                 </div>
+               </div>
+   
+               <div class="row">
+                 <div class="col-sm-6">
+                   <div class="inputBox ">
+                     <div class="inputText">Nombre</div>
+                     <input type="text" name="" class="input">
+                   </div>
+                 </div>
+   
+                 <div class="col-sm-6">
+                   <div class="inputBox">
+                     <div class="inputText">Apellido</div>
+                     <input type="text" name="" class="input">
+                   </div>
+                 </div>
+               </div>
+   
+               <div class="row">
+                 <div class="col-sm-6">
+                   <div class="inputBox">
+                     <div class="inputText">Email</div>
+                     <input type="text" name="" class="input">
+                   </div>
+                 </div>
+   
+                 <div class="col-sm-6">
+                   <div class="inputBox">
+                     <div class="inputText">Teléfono</div>
+                     <input type="text" name="" class="input">
+                   </div>
+                 </div>
+               </div>
+   
+               <div class="row">
+                 <div class="col-sm-12">
+                   <div class="inputBox">
+                     <div class="inputText">Mensaje</div>
+                     <textarea class="input"></textarea>
+                   </div>
+                 </div>
+               </div>
+   
+               <div class="row">
+                 <div class="col-sm-12">
+                   <input type="submit" name="" class="button" value="Enviar">
+                 </div>
+               </div>
+           </form>
+         </div>
+       </div>
+     </div>
+        <!--/Contacto -->
+
+         <!--footer -->
+          
+        <% include partials/footer.ejs%>
